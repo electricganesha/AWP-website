@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-    <title>A Wandering Poem</title>
+    <title>Um Poema Errante</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/offcanvas.min.css">
@@ -11,7 +11,6 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
     <script type="text/javascript" src="js/offcanvas.min.js"></script>
-    <script type="text/javascript" src="js/detectOrientation.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,550,700,600" rel="stylesheet">
   </head>
 <body>
@@ -27,7 +26,7 @@
       </button>
       <a class="navbar-brand" href="#"></a>
       <div id="headerTitle" style="height:120px;">
-      <div id="awpLogo" style="margin-left:66vw; margin-top:2.8vh; line-height:65%; font-size:4.7vw; color:black; font-family: 'Cabin', sans-serif; font-weight:700; margin-bottom:4.5vw;">
+      <div id="awpLogo">
       <a href="index.html" target="_self" >
       <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Um </p>
       <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Poema </p>
@@ -42,16 +41,16 @@
     </div>
     <div id="navbar" class="collapse navbar-collapse sidebar-offcanvas" style="max-height:100%; ">
       <ul class="nav navbar-nav" style="margin-top:38vw; line-height:75%; font-size:4.7vw; font-family: 'Cabin', sans-serif; font-weight:700;">
-        <li ><a class="menuItem" target="_blank" href="http://wanderingpoem.bigcartel.com/">Shop</a></li>
-        <li class="menuItem"><a target="_self" href="index.html">The Book</a></li>
-        <li class="menuItem"><a target="_self" href="concept.html">The Concept</a></li>
-        <li class="menuItem"><a target="_self" href="makers.html">The Makers</a></li>
-        <li class="menuItem"><a target="_self" href="journey.html">The Journey</a></li>
-        <li class="menuItem"><a target="_self" href="design.html">The Design</a></li>
+        <li ><a class="menuItem" target="_blank" href="http://wanderingpoem.bigcartel.com/">Loja</a></li>
+        <li class="menuItem"><a target="_self" href="index.html">O Livro</a></li>
+        <li class="menuItem"><a target="_self" href="concept.html">O Conceito</a></li>
+        <li class="menuItem"><a target="_self" href="makers.html">Os Criadores</a></li>
+        <li class="menuItem"><a target="_self" href="journey.html">A Viagem</a></li>
+        <li class="menuItem"><a target="_self" href="design.html">O Design</a></li>
         <li class="menuItem"><a target="_self" href="trailer.html">Trailer</a></li>
-        <li class="menuItem"><a target="_self" href="interview.html">Interview</a></li>
-        <li class="menuItem"><a target="_self" href="howto.html">Inside The Book</a></li>
-        <li class="menuItem"><a target="_self" href="whereabouts.html">Whereabouts</a></li>
+        <li class="menuItem"><a target="_self" href="interview.html">Entrevista</a></li>
+        <li class="menuItem"><a target="_self" href="howto.html">Dentro Do Livro</a></li>
+        <li class="menuItem"><a target="_self" href="whereabouts.html">Paradeiro</a></li>
       </ul>
       <div id="menuFooter" style="margin-top:15vw; margin-left:3.8vw; line-height:75%; font-size:4.7vw; color:white; font-family: 'Cabin', sans-serif; font-weight:700;">
         <p>&copy; 2017</p>
@@ -64,23 +63,29 @@
     </div><!--/.nav-collapse -->
   </div>
 </nav>
+<div data-role="content" id="content">
   <div class="container" id="mainContainer" style="text-align:justify;">
-    <p style="display:inline; float:left;"> The Makers: Christian & Angharad </p><p style="display:inline; float:right;"><a href="../en/makers.html" target="_self" class="randomLinks" style="border:none;">En</a> / <a href="../pt/makers.html" target="_self" class="randomLinks" style="border:none;">Pt</a></p>
-
-    <p style="font-weight:400; "><a href="http://www.christianmarques.info" target="_blank" class="randomLinks">Christian Marques</a>, the author,<br> is a Software Engineer with an appetite for the arts and the unknown. Among his cultural interests, a strong component traverses all his
-    endeavours: storytelling. A firm lover of narrative in all its beautiful manifestations, it becomes evident in the songs he composes, the photos he takes, and of course
-    the poems he writes. He is also an advocate of radical travel, an activity which embodies the starting point for <i>&apos;A Wandering Poem&apos;</i>, as it was an 8 month journey that laid
-    the foundations for its creation. Currently, Christian is working on new ways of digital immersive storytelling, through his recently formed company, <a href="https://www.pushvfx.com" target="_blank" class="randomLinks">PUSH</a>. </p>
-
-
-    <p style="font-weight:400; margin-top:6vw;"><a href="http://www.angharadhengyu.xyz" target="_blank" class="randomLinks">Angharad Hengyu Owen</a>, the designer,<br> loves language, the significance and insignificance of meaning. Her practice has allowed her
-    to explore the realms of graphic design,
-    photography, moving imagery, and multimedia installations, yet she remains fascinated most by words, carefully placing and shifting letters in space: Growing visuals out of
-    narratives. Since successfully completing the BA (hons) Graphic Design & Illustration course at Cambridge School of Visual and Performing Arts, Angharad continues to pursue
-    the art of visual storytelling through mindful experimentation, developing an intricate yet minimalist style.</p>
-
-
-  <div id="footer" style="margin:0px; padding:0px;">
+<p style="display:inline; float:left;"> Dentro Do Livro </p><p style="display:inline; float:right;"><a href="../en/howto.html" target="_self" class="randomLinks" style="border:none;">En</a> / <a href="../pt/howto.html" target="_self" class="randomLinks" style="border:none;">Pt</a></p>
+    <div class="embed-responsive embed-responsive-16by9" style="margin-top:10vw;">
+      <script src="https://fast.wistia.com/embed/medias/5aj1t76ao9.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_5aj1t76ao9 videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+    </div>
+    <br>
+    <div style="font-size:4.7vw; font-family: 'Cabin', sans-serif; font-weight:400; color:black; line-height:80%; margin-top:3vw;">
+    <p style="font-weight:600; margin-top:-2.6vw;"> Um Poema Errante / A Wandering Poem </p>
+    <p> Primeira edi&ccedil;&atilde;o: 600 c&oacute;pias </p>
+    <br>
+    <p> Cosido e brochado: 170 x 277 mm </p>
+    <p> Impress&atilde;o em offset a uma cor: 204 p&aacute;ginas </p>
+    <p> Capa: So... Wool White Merino 250grs</p>
+    <p> Papel: Munken Lynx 120grs</p>
+    <br>
+    <p> ISBN 978-972-51-1153-6 </p>
+    <p> Dep&oacute;sito legal n&ordm;424614/17 </p>
+    <br>
+    <p> 36&#8364; Portes de envio gratuitos para todo o mundo </p>
+    <p id="goToShop"> <a href="http://wanderingpoem.bigcartel.com/" style="color:white; text-decoration:none;" target="_blank">Ir para a loja</p>
+  </div>
+  <div id="footer" style="margin:0px; padding:0px; position:absolute; bottom:-45vw; width:91vw;">
     <hr id="menuRuler" style="border:1px solid black; margin-top:8vw; margin-left:0px; margin-right:0px;"></hr>
     <div style="height:80%; margin-bottom:3vw; margin-top:-2vw;">
     <p style="font-weight:600; display:inline; color:black; margin-bottom:4vw;"> &copy; 2017</p>
@@ -92,6 +97,7 @@
     </div>
   </div>
   </div>
+</div>
   </body>
   <script>
     $.mobile.loading( "hide" );
