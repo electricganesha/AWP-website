@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="description" content="Official Website For Um Poema Errante / A Wandering Poem">
+<meta name="keywords" content="Um Poema Errante, A Wandering Poem, Poetry, Poesia, Typography, Tipografia, Literature, Literatura, Book, Livro, Travel, Viagem, Iran, Irão, Pakistan, Paquistão, Turquia, Turkey, Georgia, Geórgia, Armenia, Arménia, India, Índia, Nepal, Backpacking, Mochileiro, Art, Arte">
+<meta name="author" content="Christian Marques">
+<meta name="google-site-verification" content="pQgZUFw0uld7_Putu_hboQL9qKNb-qn_0jqZz2c_vBI">
+<meta property="og:title" content="Um Poema Errante / A Wandering Poem">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.wanderingpoem.com">
+<meta property="og:image" content="http://www.wanderingpoem.com/temp/wandering.png">
+<meta property="og:site_name" content="Um Poema Errante / A Wandering Poem">
+<meta property="og:description" content="Official Website For Um Poema Errante / A Wandering Poem">
+<title>Um Poema Errante / A Wandering Poem</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+        var userLang = navigator.language || navigator.userLanguage;
+
+        if(userLang.includes("pt"))
+        {
+          if(detectmob())
+          {
+            window.location.replace("mobile/pt/index.html");
+          }
+          else {
+            window.location.replace("desktop/pt/index.html");
+          }
+
+        }
+        else {
+          if(detectmob())
+          {
+            window.location.replace("mobile/en/index.html");
+          }
+          else {
+            window.location.replace("desktop/en/index.html");
+          }
+        }
+
+    function detectmob() {
+     if( navigator.userAgent.match(/Mobile|Android/i)
+     || navigator.userAgent.match(/webOS/i)
+     || navigator.userAgent.match(/iPhone/i)
+     || navigator.userAgent.match(/iPod/i)
+     || navigator.userAgent.match(/BlackBerry/i)
+     || navigator.userAgent.match(/Windows Phone/i)
+     ){
+        return true;
+      }
+     else {
+        return false;
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,306 @@
+
+
+@media only screen and (min-width: 1px) and (max-width:479px) {
+  body {
+    font-family: 'Cabin', sans-serif;
+    font-weight:600;
+    font-size:4vw;
+  }
+
+  #content {
+      padding: 0;
+      position: absolute !important;
+      top : 0px !important;
+      right : 0;
+      bottom : 40px !important;
+      left : 0 !important;
+  }
+
+  #mainContainer
+  {
+    z-index:0;
+    margin-top:38vw;
+    font-size:4.7vw;
+    color:black;
+    font-family: 'Cabin', sans-serif;
+    font-weight:600;
+  }
+
+  #navbarHeader
+  {
+    height:21vh !important;
+  }
+
+  #headerTitle
+  {
+    line-height: 90%;
+    height:123px;
+  }
+
+  #awpLogo
+  {
+    margin-left:66vw;
+    margin-top:2.8vh;
+    line-height:65%;
+    font-size:4.7vw;
+    color:black;
+    font-family: 'Cabin', sans-serif;
+    ont-weight:700;
+    margin-bottom:4.5vw;
+  }
+
+  #goToShop
+  {
+    background-color:black;
+    color:white;
+    font-weight:600;
+    line-height:130%;
+    margin-top:-2vw;"
+  }
+
+  .menuItem
+  {
+    color:white;
+  }
+
+  .randomLinks
+  {
+    color:black !important;
+    font-weight:600;
+    border-bottom:1px solid grey;
+    text-decoration:none;
+  }
+
+  .randomLinks:hover
+  {
+    color:black !important;
+    font-weight:600;
+    border-bottom:1px solid grey;
+    text-decoration:none;
+  }
+
+  #awpLogo a
+  {
+    color:black ;
+    font-weight:600;
+    border-bottom:1px solid grey;
+    text-decoration:none;
+  }
+
+  #awpLogo a:hover
+  {
+    color:black;
+    font-weight:600;
+    border-bottom:1px solid grey;
+    text-decoration:none;
+  }
+
+  .socialIcon
+  {
+    width:5vw;
+    height:5vw;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    font-family: 'Cabin', sans-serif;
+    font-weight:600;
+    font-size:4vw;
+  }
+
+  #content {
+      padding: 0;
+      position: absolute !important;
+      top : 0px !important;
+      right : 0;
+      bottom : 40px !important;
+      left : 0 !important;
+  }
+
+  #mainContainer
+  {
+    z-index:0;
+    margin-top:38vw;
+    font-size:4.7vw;
+    color:black;
+    font-family: 'Cabin', sans-serif;
+    font-weight:600;
+  }
+
+  #navbarHeader
+  {
+    height:184px !important;
+  }
+
+  #headerTitle
+  {
+    line-height: 90%;
+    height:200px;
+  }
+
+  #awpLogo
+  {
+    margin-left:66vw;
+    margin-top:2.8vh;
+    line-height:65%;
+    font-size:4.7vw;
+    color:black;
+    font-family: 'Cabin', sans-serif;
+    ont-weight:700;
+    margin-bottom:4.5vw;
+  }
+
+  #goToShop
+  {
+    background-color:black;
+    color:white;
+    font-weight:600;
+    line-height:130%;
+    margin-top:-1vw;"
+  }
+
+  .menuItem
+  {
+    color:white;
+  }
+
+  .randomLinks
+  {
+    color:black !important;
+    font-weight:600;
+    border-bottom:1px solid grey;
+    text-decoration:none;
+  }
+
+  .randomLinks:hover
+  {
+    color:black !important;
+    font-weight:600;
+    border-bottom:1px solid grey;
+    text-decoration:none;
+  }
+
+  #awpLogo a
+  {
+    color:black ;
+    font-weight:600;
+    border-bottom:1px solid grey;
+    text-decoration:none;
+  }
+
+  #awpLogo a:hover
+  {
+    color:black;
+    font-weight:600;
+    border-bottom:1px solid grey;
+    text-decoration:none;
+  }
+
+  .socialIcon
+  {
+    width:4.5vw;
+    height:4.5vw;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1365px) {
+  body {
+    font-family: 'Cabin', sans-serif;
+    font-weight:600;
+    font-size:4vw;
+  }
+
+  #content {
+      padding: 0;
+      position: absolute !important;
+      top : 0px !important;
+      right : 0;
+      bottom : 40px !important;
+      left : 0 !important;
+  }
+
+  #mainContainer
+  {
+    z-index:0;
+    margin-top:38vw;
+    font-size:4.7vw;
+    color:black;
+    font-family: 'Cabin', sans-serif;
+    font-weight:600;
+  }
+
+  #navbarHeader
+  {
+    height:184px !important;
+  }
+
+  #headerTitle
+  {
+    line-height: 90%;
+    height:200px;
+  }
+
+  #awpLogo
+  {
+    margin-left:66vw;
+    margin-top:2.8vh;
+    line-height:65%;
+    font-size:4.7vw;
+    color:black;
+    font-family: 'Cabin', sans-serif;
+    ont-weight:700;
+    margin-bottom:4.5vw;
+  }
+
+  #goToShop
+  {
+    background-color:black;
+    color:white;
+    font-weight:600;
+    line-height:130%;
+    margin-top:-1vw;"
+  }
+
+  .menuItem
+  {
+    color:white;
+  }
+
+  .randomLinks
+  {
+    color:black !important;
+    font-weight:600;
+    border-bottom:1px solid grey;
+    text-decoration:none;
+  }
+
+  .randomLinks:hover
+  {
+    color:black !important;
+    font-weight:600;
+    border-bottom:1px solid grey;
+    text-decoration:none;
+  }
+
+  #awpLogo a
+  {
+    color:black ;
+    font-weight:600;
+    border-bottom:1px solid grey;
+    text-decoration:none;
+  }
+
+  #awpLogo a:hover
+  {
+    color:black;
+    font-weight:600;
+    border-bottom:1px solid grey;
+    text-decoration:none;
+  }
+
+  .socialIcon
+  {
+    width:4.5vw;
+    height:4.5vw;
+  }
+}

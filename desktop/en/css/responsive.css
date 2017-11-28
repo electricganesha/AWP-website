@@ -1,0 +1,36 @@
+@media screen and (min-width: 1px) and (max-width: 420px)
+  {
+
+    .ball
+    {
+      height:14px !important;
+      width:14px !important;
+    }
+
+    #fbicon
+    {
+      width:15px !important;
+    }
+  }
+
+@media screen and (orientation: landscape)
+{
+  .ball
+  {
+    height:14px !important;
+    width:14px !important;
+  }
+
+  #comingSoonRow
+  {
+    margin-top:10% !important;
+  }
+
+  #fbicon
+  {
+    width:15pxe
+     !important;
+  }
+
+
+}
