@@ -32,6 +32,29 @@
   src="https://www.facebook.com/tr?id=300816907096452&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
+<!-- Firebase Analytics -->
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyA_1sdamUBS83Ut0NG1WW02tUnJVQOaC9w",
+    authDomain: "wandering-16aa8.firebaseapp.com",
+    projectId: "wandering-16aa8",
+    storageBucket: "wandering-16aa8.appspot.com",
+    messagingSenderId: "109225615251",
+    appId: "1:109225615251:web:781ac91f4ff056741f1266",
+    measurementId: "G-2J4LWJG0GQ"
+  };
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+<!-- End Firebase Analytics -->
 </head>
 <body>
   <script type="text/javascript">
